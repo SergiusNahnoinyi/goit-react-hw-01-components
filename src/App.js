@@ -1,3 +1,9 @@
+import Profile from './components/Profile';
+
 export default function App() {
-  return <div>...</div>;
+  return (
+    <div>
+      <Profile />
+    </div>
+  );
 }
