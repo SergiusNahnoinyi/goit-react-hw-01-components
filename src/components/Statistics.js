@@ -1,7 +1,7 @@
-export default function Statistics() {
+export default function Statistics({ title = true, stats }) {
   return (
     <section className="statistics">
-      <h2 className="title">Upload stats</h2>
+      <h2 className="title">{title && 'Upload stats'}</h2>
 
       <ul className="stat-list">
         <li className="item">
