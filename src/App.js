@@ -13,7 +13,7 @@ export default function App() {
         location={user.location}
         stats={user.stats}
       />
-      <Statistics />
+      <Statistics stats={data} />
     </div>
   );
 }
