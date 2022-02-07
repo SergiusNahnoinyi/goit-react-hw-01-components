@@ -1,3 +1,3 @@
 export default function FriendList({ friends }) {
-  return <div>...</div>;
+  return <ul class="friend-list">{/* Довільна кіл-сть FriendListItem */}</ul>;
 }
