@@ -1,5 +1,7 @@
 import Profile from './components/Profile';
+import Statistics from './components/Statistics';
 import user from './data/user.json';
+import data from './data/data.json';
 
 export default function App() {
   return (
@@ -11,6 +13,7 @@ export default function App() {
         location={user.location}
         stats={user.stats}
       />
+      <Statistics />
     </div>
   );
 }
