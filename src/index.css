@@ -5,8 +5,8 @@
   --primary-line-height: 30px;
   --primary-letter-spacing: 0.02em;
 
-  --primary-text-color: black;
-  --secondary-text-color: grey;
+  --primary-text-color: grey;
+  --secondary-text-color: black;
   --accent-color: white;
 
   --primary-background-color: lightblue;
@@ -38,4 +38,8 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+div#root {
+  padding: 40px;
 }
