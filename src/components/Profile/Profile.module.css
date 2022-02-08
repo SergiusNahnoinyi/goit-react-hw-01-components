@@ -37,7 +37,7 @@
   border-radius: 0 0 6px 6px;
 }
 
-.stats__item {
+.item {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -45,7 +45,7 @@
   height: 100px;
 }
 
-.stats__item:not(:last-child) {
+.item:not(:last-child) {
   border-right: 1px solid;
 }
 
